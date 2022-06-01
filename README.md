@@ -1,3 +1,8 @@
+<p align="center">
+<img src="./src/componets/footer/img/1.png">
+<img src="./src/componets/footer/img/2.png">
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
