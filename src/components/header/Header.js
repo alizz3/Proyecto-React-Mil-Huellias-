@@ -5,10 +5,13 @@ function Header() {
     return (
         <header className="header">
             <nav>
+                <Link to="/home" className='item'>
                 <div className="nav_logo-text">
                     <img src={logo} alt="" className="logo-nav" />
                     <p className="text-logo-header">Mil <br /> huellitas</p>
                 </div>
+                </Link>
+                
 
                 <input type="checkbox" id="check" />
                 <label htmlFor="check" className="bar-btn">
