@@ -11,7 +11,7 @@ function Header() {
                 </div>
 
                 <input type="checkbox" id="check" />
-                <label for="check" className="bar-btn">
+                <label htmlFor="check" className="bar-btn">
                     <i className="fa-solid fa-bars"></i>
                 </label>
 

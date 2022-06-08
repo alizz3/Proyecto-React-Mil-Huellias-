@@ -12,7 +12,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />}></Route>
-      <Route path='/Adopcion' element={<Adopcion />}></Route>
+      <Route path='/adopcion' element={<Adopcion />}></Route>
       <Route path='/donacion' element={<Donacion />}></Route>
       <Route path='/blog' element={<Blog />}></Route>
       <Route path='/aliados' element={<Aliados />}></Route>      
