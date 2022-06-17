@@ -1,6 +1,8 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from './img/logo.png';
+
 function Header() {
     return (
         <header className="header">
@@ -24,6 +26,7 @@ function Header() {
                     <li><Link to="/donacion" className='item'>DONACIÓN</Link></li>
                     <li><Link to="/blog" className='item'>BLOG</Link></li>
                     <li><Link to="/aliados" className='item'>ALIADOS</Link></li>
+                    <li><Link to="/formulario" className='item'>FormularioLogin</Link></li>
                 </ul>
             </nav>
         </header>

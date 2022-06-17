@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css'
 import iconPhone from './img/phone.svg'
 import iconLocate from './img/locate.svg'

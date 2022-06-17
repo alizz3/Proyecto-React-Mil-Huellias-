@@ -6,6 +6,9 @@ import Aliados from './pages/Aliados';
 import Blog from './pages/Blog';
 import Donacion from './pages/Donacion';
 import Home from './pages/Home';
+import React from 'react';
+import FormularioLogin from './components/formlogin/FormularioLogin';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +19,7 @@ root.render(
       <Route path='/donacion' element={<Donacion />}></Route>
       <Route path='/blog' element={<Blog />}></Route>
       <Route path='/aliados' element={<Aliados />}></Route>      
+      <Route path='/formulario' element={<FormularioLogin/>}></Route>      
       
       <Route path='/home' element={<Navigate to={"/"} />}></Route>
     </Routes>

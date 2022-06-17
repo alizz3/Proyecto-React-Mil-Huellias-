@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom'
 import { indexBanner, BannerMobileUno, BannerMobileDos, BannerMobileTres, BtnPcTrasparente, BtnTrasparente, fotoUno, fotoDos, fotoTres, fotoCuatro, fotoCinco, mapa } from '../assets/img/ImportImg'
 import './Mainhome.css'
@@ -86,7 +87,7 @@ function MainHome() {
 
                 <div className="_container-maps">
                     <div className="-map">
-                        <img className="index-map"
+                        <img className="index-map" alt='mapa'
                             src={mapa}
                             // style="border:0;"
                             allowFullScreen="" loading="lazy" width="100%"
@@ -103,7 +104,7 @@ function MainHome() {
 
                 <div className="_container-maps">
                     <div className="-map">
-                        <img className="index-map" src={mapa}></img>
+                        <img className="index-map" alt='mapa' src={mapa}></img>
                         <iframe href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5508394223048!2d-74.10994518255615!3d4.673860300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b804a9222a5%3A0x37035180c0f83c83!2sFundaci%C3%B3n%20coraz%C3%B3n%20peludito!5e0!3m2!1ses-419!2sco!4v1648805119780!5m2!1ses-419!2sco" allowFullScreen="" loading="lazy" width="100%"
                             referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
